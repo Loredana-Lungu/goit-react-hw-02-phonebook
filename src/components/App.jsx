@@ -64,7 +64,7 @@ class App extends Component {
       <div className={styles.phonebook}>
         <h1>Phonebook</h1>
         <ContactForm onAddContact={this.handleAddContact} />
-        <h2>Contacts</h2>
+        <h1>Contacts</h1>
         <Filter value={filter} onChange={this.handleFilterChange} />
         <ContactList contacts={filteredContacts} onDeleteContact={this.handleDeleteContact} />
       </div>
